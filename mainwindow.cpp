@@ -12,3 +12,11 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+/* MainWindow:: abc()
+{
+    QPushButton hello("Hello World!", 0);
+    hello.resize(100,30);
+    //a.setMainWidget(&hello);
+    hello.show();
+} */
