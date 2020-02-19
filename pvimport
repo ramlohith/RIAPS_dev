@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ "x${1}" = "x" ]; then
+	echo "usage: pvimport <masknumber>"
+	exit
+fi
+pvdevelop -action=importUi:${1}
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pvdevelop -action=writeInitialProject
+pvdevelop -action=uncommentRLLIB
+pvdevelop -action=make
+qtcreator pvs.pro &
